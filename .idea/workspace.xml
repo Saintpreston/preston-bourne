@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f96e72ee-6de0-4ce0-b949-72d878070282" name="Changes" comment="Website vers 1.2" />
+    <list default="true" id="f96e72ee-6de0-4ce0-b949-72d878070282" name="Changes" comment="Website vers 1.2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="29ff022d-55ab-4732-b7dc-3ee6a084e768" />
+        <option name="url" value="https://github.com/Saintpreston/preston-bourne.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,7 +62,10 @@
       <workItem from="1649257287311" duration="1282000" />
       <workItem from="1649258843119" duration="40000" />
       <workItem from="1649298995802" duration="858000" />
-      <workItem from="1649300903097" duration="593000" />
+      <workItem from="1649300903097" duration="1792000" />
+      <workItem from="1649449041127" duration="747000" />
+      <workItem from="1649466286000" duration="750000" />
+      <workItem from="1649467580264" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="Website vers 1.2">
       <created>1649299520944</created>

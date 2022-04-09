@@ -166,33 +166,25 @@ body{
     font-style: italic;
 }
 
-@media all and (max-width: 550px){
-    #intro-text-container{
-        font-size: 1.3rem;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        padding-top: 0;
-        width: 75vw;
-        height: 30vh;
-       
-    }
-
-    header{
-        display: flex;
-        justify-content: flex-end;
-        align-items: baseline; 
-        padding: 0;
-        margin-right: 5vw;
-        margin-top: 0;
+@media (max-width: 550px){
+    .selfie-container{
+        background-color: rgba(0, 0, 0, 0);
+        
+        width: 50vw;
+        margin: auto;
+        border-radius: 100%;
+        transition: all ease-in-out 30ms;
+        margin-top: 3vw;
         margin-bottom: 0;
     }
 
 
-    header{
-          font-size: smaller;
-      }
+    .big-text-container p{
+        margin-top: 0;
+        font-size: 1.4rem;
+        
+       
+    }
 
 }
 
@@ -256,19 +248,66 @@ margin-top: 5%;
  max-width: 75%;
  max-height: 80%;
  color: black;
- font-size: 1.3rem;
+ font-size: 1.1rem;
  display: flex;
  align-self: center;
 
 }
 
-@media (max-width:550px){
+@media (max-width:1400px) {
+    .text-container {
+        margin: auto;
+        margin-top: 5%;
+        max-width: 90%;
+        max-height: 80%;
+        color: black;
+        font-size: .9rem;
+        display: flex;
+        align-self: center;
+                        }
+ .sketch-description-container p{
+    font-size: 1rem;
+                                }
+}
+@media (max-width: 1050px){
+
+    .text-container{
+        margin: auto;
+        margin-top: 5%;
+        max-width: 90%;
+        max-height: 80%;
+        color: black;
+        font-size: 1rem;
+        display: flex;
+        align-self: center;
+    }
+
+
+    .sketch-description-container p{
+        font-size: .6rem;
+    }
+
+    .text-container{
+        margin: auto;
+        margin-top: 5%;
+        max-width: 80%;
+        max-height: 80%;
+        color: black;
+        font-size: .7rem;
+        display: flex;
+        align-self: center;
+
+    }
+}
+
+@media (max-width:650px){
     .main-container{
         margin: auto;
-        margin-top: 10vh;
-        width: 70vw;
-        height: 90vh; 
-        display: flex;    
+        margin-top: 1vh;
+        width: 100vw;
+        height: 90vh;
+        background-color: brown; 
+        /* display: flex;     */
     }
     
     .sub-container-link{
@@ -316,13 +355,43 @@ margin-top: 5%;
      .text-container{
     margin: auto;
     margin-top: 5%;
-     max-width: 75%;
+     max-width: 80%;
      max-height: 80%;
      color: black;
-     font-size: 1rem;
+     font-size: 1.1rem;
      display: flex;
      align-self: center;
-    
+    }
+
+    .main-container h1{
+        margin-bottom: 0;
+      
+        
+    }
+
+    .main-container .sketch-row{
+        width: 99%;
+        background-color: aquamarine;
+      
+        
+    }
+
+    .main-container .sketch-row  .sketch-container{
+     height: 10%;
+     width: 50%;
+      align-self: center;
+      background-color: bisque;
+    }
+
+    .main-container .sketch-row .sketch-description-container {
+        max-height: 10%;
+        width: 50%;
+        background-color: coral;
+    }
+
+    .sketch-description-container p{
+        text-align: left;
+        font-size: .6rem;
     }
 
 }
