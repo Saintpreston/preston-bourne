@@ -306,7 +306,7 @@ margin-top: 5%;
         margin-top: 1vh;
         width: 100vw;
         height: 90vh;
-        background-color: brown; 
+
         /* display: flex;     */
     }
     
@@ -371,7 +371,7 @@ margin-top: 5%;
 
     .main-container .sketch-row{
         width: 99%;
-        background-color: aquamarine;
+
       
         
     }
@@ -380,13 +380,13 @@ margin-top: 5%;
      height: 10%;
      width: 50%;
       align-self: center;
-      background-color: bisque;
+
     }
 
     .main-container .sketch-row .sketch-description-container {
         max-height: 10%;
         width: 50%;
-        background-color: coral;
+
     }
 
     .sketch-description-container p{
