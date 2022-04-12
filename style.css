@@ -23,6 +23,13 @@ body{
     padding: 0;
     background-color: var(--main-bg-color);
 }
+h1{
+    font-family: 'Montserrat', sans-serif;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
 
   /* Nav Bar */
 .navbar{
@@ -365,12 +372,13 @@ margin-top: 5%;
 
     .main-container h1{
         margin-bottom: 0;
-      
+        font-family: 'Montserrat', sans-serif;
         
     }
 
     .main-container .sketch-row{
         width: 99%;
+
 
       
         
@@ -403,8 +411,8 @@ margin-top: 5%;
      width: 100%;
      align-items: flex-start;
      height: fit-content;
-  
      justify-content: space-around;
+     margin-bottom: 5vh;
  }
 
  .sketch-container{
@@ -444,6 +452,7 @@ font-size: 1.4rem;
 
  h1 a
  {
+     font-family: 'Montserrat', sans-serif;
      text-decoration: none;
     color: black;
     background-image: linear-gradient(180deg, transparent 60%, var(--highlighted-color-trans) 0);
