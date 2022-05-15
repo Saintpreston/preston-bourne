@@ -8,8 +8,9 @@
     /* --main-bg-color: rgb(250, 235, 255);          
     --highlighted-color:  rgba(230, 123, 215);
     --highlighted-color-trans: rgba(230, 123, 215, 0.65);  */
-    /* blue and yellow color scheme */
 
+
+    /* blue and yellow color scheme */
     --highlighted-color: rgb(255, 255, 120);
     --highlighted-color-trans:  rgba(255, 255, 120, 0.8);
     --main-bg-color: rgb(80, 115, 220);
@@ -17,6 +18,7 @@
     --link-transition: all ease-out 150ms;
 
 }
+
 body{
     font-family: "Space Mono", monospace;
     margin: 0;
@@ -466,13 +468,13 @@ h1 a:hover
    font-style: italic;
 }
 
-.kinect-container{
+.web-dev-container{
     margin: auto;
   width: 90vw;
     
 }
 
-.kinect-container p{
+.web-dev-container p{
     font-size: 1.2rem;
 }
 
