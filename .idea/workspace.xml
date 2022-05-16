@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96e72ee-6de0-4ce0-b949-72d878070282" name="Changes" comment="Website vers 1.2">
-      <change afterPath="$PROJECT_DIR$/whatImUpTo/webDevWork/technocapitalism.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatImUpTo/3d-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/gameDevWork/3d-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whatImUpTo/experimental-cam.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/webDevWork/experimental-cam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whatImUpTo/interactive-type.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/webDevWork/interactive-type.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatImUpTo/kinect.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/kinect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatImUpTo/p5js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatImUpTo/warped-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/warped-world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatImUpTo/warped-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/gameDevWork/warped-world.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whatImUpTo/what-im-up-to.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatImUpTo/what-im-up-to.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +50,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/prestonbourne/Documents/myWebDevProjects/Personal Site",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,6 +65,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/whatImUpTo/webDevWork" />
+      <recent name="$PROJECT_DIR$/whatImUpTo/gameDevWork" />
       <recent name="$PROJECT_DIR$/gifs" />
     </key>
   </component>
@@ -91,6 +95,7 @@
       <workItem from="1651868327723" duration="44000" />
       <workItem from="1652636196752" duration="5130000" />
       <workItem from="1652644292877" duration="22000" />
+      <workItem from="1652735117545" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="Website vers 1.2">
       <created>1649299520944</created>

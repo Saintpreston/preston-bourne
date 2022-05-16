@@ -10,13 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <title>Preston Bourne</title>
 </head>
 <header>
 
     <nav class="navbar">
-        <div class="home-page"><a href="../index.html">Preston Bourne</a></div>
+        <div class="home-page"><a href="../../index.html">Preston Bourne</a></div>
         <a href="#" class="toggle-button">
             <span class="bar" ></span>
             <span class="bar" ></span>
@@ -25,7 +25,7 @@
         <div class="navbar-links" >
             <ul>
                 <!-- <li><a href="/selectedworks/selected-works.html">Selected Works</a></li> -->
-                <li><a href="what-im-up-to.html">My Work</a></li>
+                <li><a href="../what-im-up-to.html">My Work</a></li>
                 <li><a href="mailto:preston@newschool.edu">Contact Me</a></li>
             </ul>
         </div>
@@ -37,23 +37,31 @@
     <h1>Warped World</h1>
     
 
-<img style="height: 80%; width: 80%; margin-left: 8vw; border-radius: 5px;" src="../gifs/warped-world.gif" alt="">
-
+<!--<img style="height: 80%; width: 80%; margin-left: 8vw; border-radius: 5px;" src="../../gifs/warped-world.gif" alt="">-->
+<div class="iframe-container" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p-2nh3GZRr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 <!--<h1><a class="link"    href="https://www.figma.com/proto/4D5MpDp2zZFmS3xOlAhvgE/Kinect?node-id=3%3A71&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A71" target="_blank"> View Prototype  </a> </h1>-->
 
 
     <h2>Overview</h2>
-    <p>Final Project for my Sophomore year, the prompt is a virtual music video based on any audio at least three minutes long. The project must be done using Unity Game Engine and only limited online FBX imports were allowed. 
-        The emphasis is on environmental design, world building and interactivity
+    <p>Final Project for my Sophomore year, the prompt is a virtual environment with at least three minutes of
+        exploration time.
+        The project must be done using the Unity Game Engine and only limited amount of third party assets were
+        allowed.
+        The emphasis is on environmental design, world building and interactivity.
     </p>
 
     <br>
 
     <div>
     <h2>Goal</h2>
-  <p>  I usually go for more reserved, industrial designs with tame colors. I decided to break the pattern and create VR psychedilic journey. The song of choice is
-      <a href="https://www.youtube.com/watch?v=o_XZHJrbQ1Q">Rejjie Snow - Acid Trip</a> and the visuals are heavily inspired by
-      <a href="https://www.youtube.com/watch?v=0kQWAqjFJS0">Midnight Gospel</a> a visual series by the world renowned Pendleton Ward, known primarily for Adventure Time.</p>
+  <p>  I usually go for more reserved, industrial designs with tame colors. I decided to break the pattern and create
+      psychedelic journey with the option to be experienced in VR. So far I've been able to make a build compatible
+      with the QUEST 2.
+      The visuals are heavily
+      inspired by
+      <a href="https://www.youtube.com/watch?v=0kQWAqjFJS0">Midnight Gospel</a> a visual series by the renowned Pendleton Ward, known primarily for Adventure Time.</p>
 </div>
 <br>
 <div>
@@ -64,17 +72,23 @@
 <h2>Next Steps</h2>
 
     Currently, <ul>
-    <li>Implementing the post-processing to sell the pyschedelic feeling.</li>
-    <li>Modeling more assets for the scene in Blender</li>
-    <li>Building city, valley & underwater landscapes</li>
-    <li>Scripting in C# to increase player's interactivity and agency over the world</li>
-    <li>Synchronizing the pacing and player interactions with audio</li>
+    <li>Constructing better hard surface models for the house in the first scene and the UFO interior.</li>
+    <li>Tweaking UVs</li>
+    <li>Reimagining the Grey-boxing for a less linear walk-through.</li>
+    <li>Adding more complex C# to increase player's interactivity and agency over the world</li>
 </ul>
+
+<p>A trained eye may notice a few structural problems with the first house, the interior of the ufo, and clouds not being seamless in the final scene.
+
+    This is still in the draft stage so trust that a lot of the architecture is a placeholder and will be replaced for the final working demo.
+    Currently working on my C# scripts to increase user agency/interactivity & taking a course in hard surface modeling.
+    
+    With finals being over and having more free time, I may even "remix" the project in Unreal Engine as an excuse to practice C++.</p>
 
 </div>
 
 <div>
-<h2> <i>Storyboarding, Greyboxing & References Coming Soon!!</i> </h2>
+<h2> <i>Storyboarding, Grey-boxing & References Coming Soon!!</i> </h2>
 <!--<img  style="width:60%; height: 60%; margin-left:13vw;" src="../images/style-guide.png" alt="">-->
 <!--</div>-->
 <!--<br>-->
